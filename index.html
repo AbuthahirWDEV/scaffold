@@ -9,12 +9,17 @@
       <h1>Weather App</h1>
     </div>
     <div class="container">
-      <div class="flex">
-        <input class="input" type="search" name="" id="">
-      <button class="search">Get Weather</button>
-      </div>
+      
+        <form id="location-form" class="flex">
+          <input class="input" type="search" name="" id="input" placeholder="Enter a city to find weather">
+          <button class="search" id="submit">Get Weather</button>
+        </form>
+      
       <div class="result">
-        
+        <h3 id="city" ></h3>
+        <span id="climate"></span>
+        <img src="" alt="" id="img">
+        <h2 id="error"></h2>
       </div>
     </div>
     <!-- Make the weather app containers and form here -->

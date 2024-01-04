@@ -21,13 +21,16 @@ body{
 }
 .flex{
     display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
     justify-content: center;
     width: 740px;
 
     /* margin: 10px auto; */
     /* padding: 50px; */
 }
-.input{
+.input{display: flex;
+    flex-wrap: wrap;
     width: 80%;
     box-sizing: border-box;
     padding: 17px;
@@ -50,4 +53,9 @@ body{
 .input:focus{
     border: none;
     outline: none;
+}
+.result{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
 }

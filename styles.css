@@ -56,6 +56,21 @@ body{
 }
 .result{
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    /* width: 100px; */
+    flex-direction: column;
+    /* gap:12px; */
+}
+.left{
+    display: flex;
+    align-items: center;
+    /* justify-content: end;
+    align-items: start; */
+}
+#img{
+    width: 80px;
+    height: 80px;
 }
